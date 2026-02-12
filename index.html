@@ -4,68 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redesigned Website</title>
-    <link href="https://fonts.googleapis.com/css2?family=Loud+Few&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Loud Few', sans-serif;
             background-color: white;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            color: #333;
         }
-        header {
+        .navbar {
             display: flex;
             justify-content: space-between;
-            align-items: center;
             padding: 20px;
+            background-color: transparent;
         }
-        .logo {
-            font-size: 2em;
-        }
-        nav {
-            display: flex;
-            gap: 20px;
-        }
-        nav a {
+        .navbar a {
+            margin: 0 15px;
             text-decoration: none;
-            color: black;
+            color: #333;
             font-weight: bold;
         }
         .hero {
-            background: url('path/to/leather-bag-image.jpg') no-repeat center center;
+            background-image: url('path_to_reconstructed_leather_bag_image.jpg');
             background-size: cover;
-            height: 400px;
+            background-position: center;
+            height: 60vh;
             display: flex;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
             color: white;
-            font-size: 3em;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
-        .hero h1 {
-            margin: 0;
-        }
-        footer {
             text-align: center;
+        }
+        .content {
             padding: 20px;
-            font-size: 0.9em;
+            margin: 20px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="logo">Logo</div>
+    <div class="navbar">
+        <div class="logo"><img src="path_to_logo.png" alt="Logo" style="width: 50px;"></div>
         <nav>
-            <a href="#haute-couture">Haute Couture</a>
-            <a href="#cut-and-sew">Cut and Sew</a>
-            <a href="#set-a-consultation">Set a Consultation</a>
-            <a href="#contact-us">Contact Us</a>
+            <a href="#hautecouture">Haute Couture</a>
+            <a href="#cutandsew">Cut and Sew</a>
+            <a href="#consultation">Set a Consultation</a>
+            <a href="#contact">Contact Us</a>
         </nav>
-    </header>
-    <section class="hero">
-        <h1>Welcome to Our London Studio</h1>
-    </section>
-    <footer>
+    </div>
+    <div class="hero">
+        <h1>Explore Our Collection</h1>
+    </div>
+    <div class="content">
+        <h2>Welcome to Our Elegant Store</h2>
         <p>Located in London</p>
-    </footer>
+        <p>Discover the finest designs with a punk elevated aesthetic.</p>
+    </div>
 </body>
 </html>
