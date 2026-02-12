@@ -1,39 +1,61 @@
-.loud-few-logo { font-family: 'Lobster', cursive; /* Example font for script styling */ }
-
-body {
-    background-color: #FFFFFF;
-    color: #333333;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-
-header {
-    text-align: center;
-    padding: 20px;
-}
-
 .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  font-family: 'Script Font', cursive; /* Use a suitable script font */
 }
 
-.card {
-    background: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin: 15px 0;
-    padding: 15px;
+.header {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@media (max-width: 768px) {
-    .container {
-        width: 95%;
-        padding: 10px;
-    }
-    .card {
-        padding: 10px;
-    }
+.logo {
+  font-size: 2rem;
+  color: #000;
+}
+
+.hero {
+  width: 100%;
+  background-image: url('path/to/leather-bag-image.jpg'); /* Update with actual image path */
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
 }
