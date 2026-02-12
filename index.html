@@ -1,1 +1,71 @@
-<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Redesigned Website</title>\n    <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n    <header>\n        <div class=\"logo\">\n            <img src=\"logo.png\" alt=\"Script Logo\" style=\"position: absolute; top: 20px; right: 20px;\">\n        </div>\n        <nav>\n            <ul>\n                <li><a href=\"#haute-couture\">Haute Couture</a></li>\n                <li><a href=\"#cut-and-sew\">Cut and Sew</a></li>\n                <li><a href=\"#consultation\">Set a Consultation</a></li>\n                <li><a href=\"#contact\">Contact Us</a></li>\n            </ul>\n        </nav>\n    </header>\n    <main>\n        <section id=\"hero\" style=\"background-image: url('hero-image.jpg'); height: 50vh; display: flex; align-items: center; justify-content: center; color: white;\">\n            <h1>Reconstructed Leather Bags</h1>\n        </section>\n        <section id=\"haute-couture\">\n            <h2>Haute Couture</h2>\n            <p>Description about Haute Couture.</p>\n        </section>\n        <section id=\"cut-and-sew\">\n            <h2>Cut and Sew</h2>\n            <p>Description about Cut and Sew.</p>\n        </section>\n        <section id=\"consultation\">\n            <h2>Set a Consultation</h2>\n            <p>Information on how to set up a consultation.</p>\n        </section>\n        <section id=\"contact\">\n            <h2>Contact Us</h2>\n            <p>Contact information and form.</p>\n        </section>\n    </main>\n    <footer>\n        <p>London | Professional Typography | Contact information</p>\n    </footer>\n</body>\n</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redesigned Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Loud+Few&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Loud Few', sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        .logo {
+            font-size: 2em;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('path/to/leather-bag-image.jpg') no-repeat center center;
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .hero h1 {
+            margin: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Logo</div>
+        <nav>
+            <a href="#haute-couture">Haute Couture</a>
+            <a href="#cut-and-sew">Cut and Sew</a>
+            <a href="#set-a-consultation">Set a Consultation</a>
+            <a href="#contact-us">Contact Us</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Welcome to Our London Studio</h1>
+    </section>
+    <footer>
+        <p>Located in London</p>
+    </footer>
+</body>
+</html>
